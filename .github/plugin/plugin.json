@@ -1,0 +1,14 @@
+{
+  "name": "combover",
+  "description": "Less overhead. Same coverage. Minimal reliable knowledge-work execution.",
+  "version": "0.2.0",
+  "author": {
+    "name": "iquantecho",
+    "url": "https://github.com/iquantecho"
+  },
+  "homepage": "https://github.com/iquantecho/combover",
+  "repository": "https://github.com/iquantecho/combover",
+  "license": "MIT",
+  "keywords": ["agent-skills", "productivity", "research", "operations", "minimalism"],
+  "skills": "skills/"
+}

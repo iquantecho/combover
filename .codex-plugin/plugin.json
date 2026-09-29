@@ -1,0 +1,27 @@
+{
+  "name": "combover",
+  "version": "0.2.0",
+  "description": "Less overhead. Same coverage. Minimal reliable knowledge-work execution.",
+  "author": {
+    "name": "iquantecho",
+    "url": "https://github.com/iquantecho"
+  },
+  "homepage": "https://github.com/iquantecho/combover",
+  "repository": "https://github.com/iquantecho/combover",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Combover",
+    "shortDescription": "Less overhead. Same coverage.",
+    "longDescription": "Reduce process, artifacts, dependencies, and maintenance around knowledge work without reducing the requested outcome.",
+    "developerName": "iquantecho",
+    "category": "Productivity",
+    "capabilities": ["Instructions"],
+    "websiteURL": "https://github.com/iquantecho/combover",
+    "defaultPrompt": [
+      "Use Combover for this task.",
+      "Combover ultra: simplify this without dropping requirements.",
+      "Combover review: find the smallest reliable version of this workflow."
+    ]
+  }
+}

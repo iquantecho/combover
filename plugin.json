@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "combover",
+  "version": "0.2.0",
+  "description": "Less overhead. Same coverage. A knowledge-work skill that minimizes process, artifacts, and maintenance without shrinking the requested outcome.",
+  "author": {
+    "name": "iquantecho",
+    "url": "https://github.com/iquantecho"
+  },
+  "homepage": "https://github.com/iquantecho/combover",
+  "repository": "https://github.com/iquantecho/combover",
+  "license": "MIT",
+  "keywords": ["agent-skills", "productivity", "research", "operations", "minimalism", "knowledge-work"]
+}
