@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/combover.svg" width="256" alt="Combover mascot">
+  <img src="assets/combover.png" width="256" alt="Combover mascot">
 </p>
 
 <h1 align="center">Combover</h1>
