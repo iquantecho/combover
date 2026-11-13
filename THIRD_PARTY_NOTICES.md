@@ -4,7 +4,9 @@
 
 Combover is directly inspired by [Ponytail](https://github.com/DietrichGebert/ponytail) by Dietrich Gebert. Ponytail established the original “lazy senior developer” minimalism pattern that motivated Combover's knowledge-work adaptation.
 
-The current Combover repository does not redistribute Ponytail source code as a dependency. Its packaging and cross-harness distribution approach were studied as a reference. The Ponytail project is licensed under the MIT License:
+Combover 0.3.0 was informed by [Ponytail v5.3.3](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3), commit [`7801d061243d7b753bad0e0b3c057cd250b11755`](https://github.com/DietrichGebert/ponytail/tree/7801d061243d7b753bad0e0b3c057cd250b11755). Its scope handling, complete-result rule, meaningful checks, and concrete review method guided this original knowledge-work adaptation.
+
+The current Combover repository does not redistribute Ponytail source code as a dependency. Its packaging and cross-harness distribution approach were also studied as a reference. The Ponytail project is licensed under the MIT License:
 
 ```text
 MIT License

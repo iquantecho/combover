@@ -4,7 +4,7 @@
 
 <h1 align="center">Combover</h1>
 
-<p align="center"><strong>Less overhead. Same coverage.</strong></p>
+<p align="center"><strong>Good work. On time.</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Agent%20Skill-portable-111111?style=flat-square" alt="Portable Agent Skill">
@@ -12,31 +12,38 @@
   <img src="https://img.shields.io/badge/runtime-none-111111?style=flat-square" alt="No runtime">
 </p>
 
-Combover is an Agent Skill for knowledge work. It helps AI agents remove process, artifacts, dependencies, duplicate work, and maintenance without shrinking the outcome you actually asked for.
+**Combover is the lazy senior knowledge worker in your AI toolbox.** The pitch deck is ready before the meeting. The Excel P&L ties out with time to spare. The research brief answers the question. He knows where care pays off and when the work is good enough to use.
 
-Think of it as the operator who replaces a steering committee with one checked spreadsheet.
+Give that judgment to your AI agent. Combover applies the 80/20 rule to effort: concentrate on what changes the outcome, finish the requested work, check what matters, and deliver.
 
-## What it changes
+## What good enough looks like
 
-Without Combover, an agent can turn a straightforward business task into a research plan, tracker, reconciliation document, handoff, review loop, and follow-up task.
+Good enough means complete for its intended use, materially accurate, readable, and ready for the next action. The audience and deadline set the finish line.
 
-With Combover, the agent first asks:
+| Work | Worth the effort | Time to stop |
+|---|---|---|
+| Pitch deck | Clear story, supported claims, consistent numbers, readable slides, a specific ask | The deck works in the meeting; another decorative pass adds little |
+| Excel P&L or budget | Traceable inputs, working formulas, reconciled totals, clear assumptions | The model supports the decision; extra tabs and styling add little |
+| Research brief | Relevant evidence, the answer, citations, consequential uncertainty | Requested coverage is complete and more searching is unlikely to change the answer |
+| Proposal or report | Complete requirements, clear reasoning, useful next steps | The reader can decide or act without a companion explanation |
+| Operations, HR, teaching, or planning | Accurate instructions, ownership, usable structure, the necessary context | The intended person can do the job |
 
-1. Does this extra work need to exist?
-2. Is the answer already decided or available?
-3. Can a native capability do it?
-4. Is there a standard method before custom machinery?
-5. Can one artifact or action finish it?
-6. What is actually still missing?
+## How it works
 
-Then it does the missing work and verifies the result.
+- Understand the audience, requested result, format, and deadline. Make routine decisions without handing the job back.
+- Reuse accepted work, existing templates, and native tools. Build only what is missing.
+- Finish the whole change. A revised assumption reaches the spreadsheet, chart, and summary that depend on it.
+- Check the errors that could matter: unsupported claims, wrong formulas, missing requirements, unreadable output, or unsuccessful writes.
+- Deliver when the result is usable and material checks pass. Further work needs a concrete defect, unmet requirement, usability problem, or requested refinement.
+
+Accuracy, explicit requirements, and necessary safeguards stay intact. A complete long report is still appropriate when that is the job. Extra process and endless polish are optional.
 
 ## Modes
 
 | Mode | Behavior |
 |---|---|
 | `lite` | Keep the requested approach, point out one simpler equivalent when useful. |
-| `full` | Take the first sufficient route. Default. |
+| `full` | Deliver the simplest complete result and stop when it is ready. Default. |
 | `ultra` | Challenge optional complexity hardest without dropping requirements. |
 | `off` | Stop applying Combover. |
 
@@ -44,6 +51,8 @@ Examples:
 
 ```text
 Combover
+Combover: get this pitch deck ready for tomorrow's meeting
+Combover finance: update the P&L with these actuals
 Combover ultra
 Combover review: simplify this project task
 Combover research: qualify this prospect list
@@ -54,7 +63,7 @@ stop combover
 
 ### ChatGPT
 
-Once Combover is approved in the public OpenAI Plugins Directory, install it there like any other plugin. Until then, eligible ChatGPT Skills users can download `combover-skill.zip` from GitHub Releases and use **Plugins → Skills → Create → Upload from your computer**.
+The portable skill source is in [skills/combover/](skills/combover/). If your ChatGPT workspace supports skill uploads, zip that folder for manual upload.
 
 ### Claude Code
 
@@ -131,32 +140,15 @@ See [compatibility details](docs/COMPATIBILITY.md).
 
 ## One canonical skill
 
-Combover intentionally keeps a single source of truth:
+The behavior lives in [skills/combover/SKILL.md](skills/combover/SKILL.md). Four optional references support [research](skills/combover/references/research.md), [finance](skills/combover/references/finance.md), [review](skills/combover/references/review.md), and [cleanup](skills/combover/references/cleanup.md). The agent loads only the method the task needs.
 
-```text
-skills/combover/
-├── SKILL.md
-└── references/
-    ├── research.md
-    ├── finance.md
-    ├── review.md
-    └── cleanup.md
-```
-
-The core loads a reference only when the task needs that method. There is no mandatory pipeline and no agent swarm hiding behind the skill.
-
-## What Combover is not
-
-- Not a coding minimalism skill. Use [Ponytail](https://github.com/DietrichGebert/ponytail) for that.
-- Not a terse-writing formatter. It can produce a complete long artifact when the job requires one.
-- Not an MCP server. It uses the tools the host already provides.
-- Not an automation daemon. It has no background runtime, credentials, telemetry, or lifecycle-hook dependency.
+Combover uses the host's existing tools and artifact skills. It has no background runtime, credentials, telemetry, or lifecycle-hook dependency. For coding work, use [Ponytail](https://github.com/DietrichGebert/ponytail).
 
 ## Credit: Ponytail came first
 
 Combover is directly inspired by [Ponytail](https://github.com/DietrichGebert/ponytail) by **Dietrich Gebert**, the original project that put a "lazy senior developer" minimalism reflex into AI coding agents.
 
-Ponytail's core idea is the important precedent: understand the work, then stop at the first sufficient solution instead of automatically building more machinery. Combover translates that philosophy from code into knowledge work such as research, finance, CRM, documentation, operations, planning, and business execution.
+Combover 0.3.0 learns from [Ponytail 5](https://github.com/DietrichGebert/ponytail/releases/tag/v5.0.0), using [v5.3.3](https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.3) as the reference: understand the scope, finish affected dependencies, check meaningful risks, and make review findings concrete. Combover applies those lessons to knowledge work and adds a stopping rule based on the audience, deadline, and intended use.
 
 This is a functional adaptation, not a port of Ponytail's code or wording. Ponytail is not affiliated with Combover.
 

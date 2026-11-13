@@ -5,7 +5,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.2.0"
+VERSION = "0.3.0"
 required = [
     "plugin.json",
     ".codex-plugin/plugin.json",
@@ -77,7 +77,7 @@ for ref in ["research.md", "finance.md", "review.md", "cleanup.md"]:
         errors.append(f"missing routed reference {token}")
 
 readme = (ROOT / "README.md").read_text()
-for needle in ["Ponytail", "Dietrich Gebert", "Less overhead. Same coverage."]:
+for needle in ["Ponytail", "Dietrich Gebert", "Good work. On time."]:
     if needle not in readme:
         errors.append(f"README missing {needle!r}")
 

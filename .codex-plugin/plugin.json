@@ -1,7 +1,7 @@
 {
   "name": "combover",
-  "version": "0.2.0",
-  "description": "Less overhead. Same coverage. Minimal reliable knowledge-work execution.",
+  "version": "0.3.0",
+  "description": "The lazy senior knowledge worker. Complete, reliable work with practical 80/20 judgment. Good work. On time.",
   "author": {
     "name": "iquantecho",
     "url": "https://github.com/iquantecho"
@@ -12,8 +12,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Combover",
-    "shortDescription": "Less overhead. Same coverage.",
-    "longDescription": "Reduce process, artifacts, dependencies, and maintenance around knowledge work without reducing the requested outcome.",
+    "shortDescription": "Good work. On time.",
+    "longDescription": "Deliver complete, reliable decks, spreadsheets, research, writing, and operational work. Focus effort where it changes the outcome, check what matters, and stop when the result is ready to use.",
     "developerName": "iquantecho",
     "category": "Productivity",
     "capabilities": ["Instructions"],

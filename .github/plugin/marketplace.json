@@ -1,6 +1,6 @@
 {
   "name": "combover",
-  "description": "Less overhead. Same coverage. Knowledge-work minimalism for AI agents.",
+  "description": "Good work. On time. Practical 80/20 judgment for AI knowledge work.",
   "owner": {
     "name": "iquantecho",
     "url": "https://github.com/iquantecho"
@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "combover",
-      "description": "Reduce process and maintenance without shrinking the requested outcome.",
+      "description": "Deliver complete, reliable work and stop when it is ready to use.",
       "source": "./",
       "category": "productivity",
       "tags": ["agent-skills", "productivity", "research", "operations", "minimalism"],

@@ -11,7 +11,9 @@ Use this reference for evidence gathering, source reconciliation, prospect resea
 5. Work in bulk first. Escalate only unresolved or high-value cases to deeper research.
 6. Separate entity resolution from enrichment. Confirm that the company, person, document, or record is the intended one before attaching facts to it.
 7. Keep citations beside the claims they support. Do not cite a nearby source that merely says something similar.
-8. Stop when the requested population is covered and material uncertainty is resolved. More searches are not automatically more reliable.
+8. Match depth to the intended use. For a decision brief, stop when the evidence supports the decision and further searching is unlikely to change it. For exhaustive research or a full population, finish the requested coverage. Never use an arbitrary source count as proof of completeness.
+
+Resolve conflicting consequential evidence before making a confident claim. If a material gap cannot be resolved, state it beside the affected conclusion and explain what would change the recommendation. Deliver supported independent findings while the gap remains open.
 
 ## Large lists
 
